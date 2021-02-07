@@ -28,3 +28,21 @@ nav {
     font-weight: bold;
     color: #E50914;
 }
+.navbar__search{
+    width: 70%;
+    min-width: 300px;
+    justify-self: center;
+    height: 35px;
+    border-radius: 10px;
+    font-size: 1.2rem;
+    padding-left: 15px;
+    align-self: center;
+    outline: none;
+}
+
+@media screen and (max-width: 1024px){
+    .navbar__search{
+        font-size: 0.8rem;
+        padding-left: 12px;
+    }
+}
