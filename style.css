@@ -6,4 +6,15 @@
 
 html{
     font-size: 62.5;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+nav {
+    display: grid;
+    grid-template-columns: 90px 200px 1fr 200px 100px;
+    width: 100vw;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2) ;
+    height: 70px;
+    align-items: center;
+    background-color: #fbfbfb;
 }
