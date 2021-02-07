@@ -23,3 +23,8 @@ nav {
     justify-self: right;
 
 }
+.navbar__title{
+    font-size: 1.6rem;
+    font-weight: bold;
+    color: #E50914;
+}
