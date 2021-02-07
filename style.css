@@ -18,3 +18,8 @@ nav {
     align-items: center;
     background-color: #fbfbfb;
 }
+.navbar__logo{
+    width: 50px;
+    justify-self: right;
+
+}
