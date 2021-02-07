@@ -40,6 +40,11 @@ nav {
     outline: none;
 }
 
+.navbar__user{
+    font-weight: bold;
+}
+
+
 @media screen and (max-width: 1024px){
     .navbar__search{
         font-size: 0.8rem;
