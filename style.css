@@ -10,7 +10,7 @@ html{
 }
 body{
     display: grid;
-    grid-template-columns: 100px 1fr;
+    grid-template-columns: 120px 1fr;
     grid-template-rows: 70px 1fr;
     grid-template-areas:  "nav nav"
                     "sidebar main";
@@ -56,6 +56,12 @@ nav {
 .navbar__profile-picture{
     padding-left: 10px;
     border-radius: 50%;
+}
+
+.sidebar{
+    display: grid;
+    grid-template-rows: 100px 100px 100px 1fr 100px;
+    background-color: #E50914;
 }
 
 @media screen and (max-width: 1024px){
