@@ -62,6 +62,20 @@ nav {
     display: grid;
     grid-template-rows: 100px 100px 100px 1fr 100px;
     background-color: #E50914;
+    align-items: center;
+    justify-items: center;
+    font-weight: bold;
+    color: #fbfbfb;
+}
+
+.sidebar__element_icon{
+    text-align: center;
+}
+
+.sidebar__element_icon img{
+    width: 40px;
+    color: #fbfbfb;
+    
 }
 
 @media screen and (max-width: 1024px){
