@@ -60,6 +60,7 @@ nav {
 
 .sidebar{
     display: grid;
+    grid-area: sidebar;
     grid-template-rows: 100px 100px 100px 1fr 100px;
     background-color: #E50914;
     align-items: center;
@@ -76,6 +77,17 @@ nav {
     width: 40px;
     color: #fbfbfb;
     
+}
+
+.main{
+    display: grid;
+    grid-area: main;
+    grid-row-gap: 25px;
+    grid-column-gap: 50px;
+    grid-template-columns: 270px 270px 270px;
+    grid-template-rows: 40px 180px 40px 180px 40px 180px;
+    justify-content: center;
+    align-content: center;
 }
 
 @media screen and (max-width: 1024px){
