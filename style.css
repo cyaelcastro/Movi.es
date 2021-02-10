@@ -90,6 +90,14 @@ nav {
     align-content: center;
 }
 
+.main__title{
+    grid-column-start: 1;
+    grid-column-end: -1;
+    font-weight: bold;
+    align-self: flex-end;
+}
+
+
 @media screen and (max-width: 1024px){
     .navbar__search{
         font-size: 0.8rem;
