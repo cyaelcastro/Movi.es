@@ -97,6 +97,32 @@ nav {
     align-self: flex-end;
 }
 
+.main__movie-container-photo{
+    position: relative;
+}
+
+.main__movie-container-info{
+    position: relative;
+    width: 100%;
+    height: 50%;
+    background-color: rgba(229, 09, 20, .8);
+    color: #fbfbfb;
+    bottom: 52%;
+}
+.main__movie-container-info_title{
+    font-size: 1.2rem;
+    font-weight: bold;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.main__movie-container-info_description{
+    font-size: .8rem;
+    font-weight:400;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+}
 
 @media screen and (max-width: 1024px){
     .navbar__search{
