@@ -108,7 +108,9 @@ nav {
     background-color: rgba(229, 09, 20, .8);
     color: #fbfbfb;
     bottom: 52%;
+    display: none;
 }
+
 .main__movie-container-info_title{
     font-size: 1.2rem;
     font-weight: bold;
@@ -122,6 +124,10 @@ nav {
     padding-left: 10px;
     padding-right: 10px;
     padding-top: 5px;
+}
+
+.main__movie-container-photo:hover + .main__movie-container-info{
+    display: block;
 }
 
 @media screen and (max-width: 1024px){
