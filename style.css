@@ -129,10 +129,3 @@ nav {
 .main__movie-container-photo:hover + .main__movie-container-info{
     display: block;
 }
-
-@media screen and (max-width: 1024px){
-    .navbar__search{
-        font-size: 0.8rem;
-        padding-left: 12px;
-    }
-}
